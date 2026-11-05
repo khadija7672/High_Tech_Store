@@ -7,31 +7,36 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <div>
+    <div class="header">
         <header>
-            <img src="#" alt="HTS" srcset="">
+            <h2 class="hts">HTS</h2>
             <h1>
                 HighTechStore
             </h1>
         </header>
         <nav>
             <a href="index.html">Accuiel</a>
-            <a href="pc.html">Pc</a>
+            <a href="pc.html" class="actif">Pc</a>
             <a href="inscription.html">Inscription</a>
             <a href="infos.html">Infos</a>
         </nav>
     </div>
-    <main>
-        <h2>Catalogue des Ordinateurs</h2> <hr>
-        <div>
+    <main  class="main">
+        <h2>Catalogue des Ordinateurs</h2> 
+        <hr>
+        <div class="Recherche">
+        <div class="group" >
             <label for="">Recherche par mot-clé :</label>
-            <input type="text" placeholder="Ex: Gaming, Intel, Lenovo...">
+            <input type="text" placeholder="Ex: Gaming, Intel, Lenovo...">    
             <label for="">Trier par prix:</label>
             <select name="" id="">
                 <option value="">Prix croissant</option>
             </select>
-            <input type="button" value="">
         </div>
+        <input type="button" value="Filtrer">
+        </div>
+        
+        
         <table>
             <tr>
                 <th>Référence</th>
@@ -51,7 +56,7 @@
                         <li>Écran : 16 pouces FHD+</li>
                     </ul>
                  </td>
-                <td>2 450 TND</td>
+                <td class="prix">2 450 TND</td>
             </tr>
             <tr>
                 <td>REF.PC002</td>
@@ -65,10 +70,10 @@
                         <li>Stockage : 1 To NVMe</li>
                     </ul>
                 </td>
-                <td>3 890 TND</td>
+                <td class="prix">3 890 TND</td>
             </tr>
             <tr>
-                <td>REF-PC003</td>
+                <td>REF.PC003</td>
                 <td><img src="../Images/img3.jpeg" alt="PC3"></td>
                 <td>
                     <ul>
@@ -79,14 +84,15 @@
                         <li>Inclus : Clavier + Souris filaires</li>
                     </ul>
                 </td>
-                <td>1 620 TND</td>
+                <td class="prix">1 620 TND</td>
             </tr>
         </table>
     </main>
     <footer>
         <p>© 2026 HighTechStore - Tous droits réservés | Auteur : Votre nom et prénon
         </p>
-    </footer> 
+    </footer>
+    
 </body>
 </html>
 

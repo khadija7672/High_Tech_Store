@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../Style/style.css">
 </head>
 <body>
-    <div>
+    <div class="header">
         <header>
-            <img src="" alt="" srcset="">
+            <h2 class="hts">HTS</h2>
             <h1>
                 HighTechStore
             </h1>
@@ -17,52 +17,52 @@
         <nav>
             <a href="index.html">Accuiel</a>
             <a href="pc.html">Pc</a>
-            <a href="inscription.html">Inscription</a>
+            <a href="inscription.html" class="actif">Inscription</a>
             <a href="infos.html">Infos</a>
         </nav>
     </div>
-    <main>
+    <main class="main">
         <form action="">
             <h2>Formulaire d'Inscription</h2> <hr>
             <div>
                 <label for="">Nom :</label>
-                <input type="text" required>
+                <input class="input" type="text" required>
                 <label for="">Prénom:</label>
-                <input type="text" required>
+                <input class="input" type="text" required>
                 <label for="">Date de naissance:</label>
-                <input type="date" required>
+                <input class="input" type="date" required>
                 
             </div>
             <div>
                 <label for="">Sexe :</label>
-                <input type="radio" name="s"> <label for="">Masculin</label>
-                <input type="radio" name="s"> <label for="">Feminin</label>
+                <input class="input" type="radio" name="s"> Masculin
+                <input class="input" type="radio" name="s"> Feminin
                 <label for="">Adresse:</label>
-                <input type="text" name="" id="" required>
+                <input class="input" type="text" name="" id="" required>
                 <label for="">Code postal :</label>
-                <input type="number" name="" id="" required>
+                <input class="input" type="number" name="" id="" required>
             </div>
             <div>
                 <label for="">Ville :</label>
-                <input type="text" name="" id="" required>
+                <input class="input" type="text" name="" id="" required>
                 <label for="">Gouvernorat:</label>
-                <select name="" id="">
+                <select class="input" name="" id="">
                     <option value="">-- Choisir un Gouvernorat -</option>
                 </select>
                 <label for="">Fonction:</label>
-                <input type="text" name="" id="" >
+                <input class="input" type="text" name="" id="" >
             </div>
             <div>
                 <label for="">Adresse Email :</label> 
-                <input type="email" placeholder="nom@exemple.com" id="" required>
+                <input class="input" type="email" placeholder="nom@exemple.com" id="" required>
                 <label for="">Numéro de téléphone :</label>
-                <input type="number" required>
+                <input class="input" type="number" required>
             </div>
             <div>
                 <label for="">Remarques :</label><br>
-                <textarea name="" id="" placeholder="Vos remarques ou précisions..."></textarea>
+                <textarea class="input" name="" id="" placeholder="Vos remarques ou précisions..."></textarea>
             </div>
-            <input type="submit" value="Valider l'inscription">
+            <input class="input" type="submit" value="Valider l'inscription">
         </form>
     </main>
     <footer>
